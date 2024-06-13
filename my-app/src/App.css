@@ -1,0 +1,108 @@
+/* nav ul li #logo {
+  font-size: 100px;
+}
+
+nav ul li {
+  list-style-type: none !important;
+  background-color: red;
+}
+
+.home {
+  list-style-type: none !important;
+} */
+
+/* 
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
+
+
+
+
+
+
+
+
+/* call app css */
+
+ /* table{
+       border: 2px solid black;
+       border-collapse: collapse;
+     }
+    
+     th{
+       border: 2px solid black;
+     }
+    
+     td{
+       border: 2px solid black;
+     }
+  
+   */
+
+
+
+
+
+
+
+
+
+   body {
+    background-color: black;
+  }
+  
+  ul {
+    display: flex !important;
+    gap: 22px;
+    padding-top: 12px;
+  }
+  
+  ::marker {
+    list-style-type: none !important;
+  }
+  
+  li:active {
+    background-color: aqua !important;
+  }
+  
+  .nav-parent {
+    padding: 2rem 3rem;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+    border: 2px solid black;
+    border-radius: 8px;
+  }
+  
+  .navbar-container .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar-container .nav-links .nav-link {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+  
+  .navbar-container .nav-links .nav-link:hover{
+    color: white;
+    background-color: green;
+  }
+  
